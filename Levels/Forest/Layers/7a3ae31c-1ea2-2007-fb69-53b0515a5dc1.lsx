@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Layers">
+        <node id="root">
+            <children>
+                <node id="Layer">
+                    <attribute id="Object" type="guid" value="10404559-2dc6-3c62-cce8-85cf0ad3dfa8"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="ID" type="guid" value="7a3ae31c-1ea2-2007-fb69-53b0515a5dc1"/>
+            <attribute id="LayerColor" type="int32" value="0"/>
+            <attribute id="Name" type="LSString" value="Bushes"/>
+        </node>
+    </region>
+</save>

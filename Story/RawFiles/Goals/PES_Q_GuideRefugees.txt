@@ -1,0 +1,49 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_PES_Refugees(Pesantry_Refugees_Human_Female_000_f88adcd8-1bac-4783-b639-4bf2712b2a20);
+DB_PES_Refugees(Pesantry_Refugees_Human_Female_001_b418dcf3-3e3f-4492-bcf2-c4223ed7b9fe);
+DB_PES_Refugees(Pesantry_Refugees_Human_Male_000_48eed047-4355-45c2-a73d-6e0c6d50c308);
+DB_PES_Refugees(Pesantry_Refugees_Human_Male_001_e2b0804d-1f85-4b30-96d9-6db915a9f053);
+DB_PES_Refugees(Pesantry_Refugees_Tiefling_Female_000_20123b0b-2ef5-48a7-b75b-fa7b670d8385);
+
+
+KBSECTION
+IF
+DB_LevelLoadedOnce("Forest")
+AND
+DB_Players(_player)
+THEN
+QuestAdd(_player, "PES_Q_START_GuideRefugees");
+QuestUpdate(_player,"PES_Q_START_GuideRefugees","START");
+
+IF
+DialogEnded((DIALOGRESOURCE)Refugee_convince_to_follow_7bc43a06-6845-a55b-b9e8-2770b18a5d8c,_instance)
+AND
+DB_Players(_player)
+AND
+QuestUpdateIsUnlocked(_player,"PES_Q_START_GuideRefugees","ACCEPTED",1) 
+AND
+DialogGetInvolvedPlayer(_instance,1,_leader)
+AND
+DB_PES_Refugees(_refugee)
+THEN
+Follow((CHARACTER)_refugee,(CHARACTER)_leader);
+
+
+IF
+DB_PES_Refugees(_refugee)
+AND
+IsInTrigger(_refugee,(TRIGGER)PES_START_Q_RefugeesGuide_Success_07ba1588-f020-40ec-bdb2-2302f87322cb,1)
+AND
+DB_Players(_player)
+THEN
+QuestUpdate(_player,"PES_Q_START_GuideRefugees","SUCCESS");
+StopFollow((CHARACTER)_refugee);
+
+
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Pesantry"

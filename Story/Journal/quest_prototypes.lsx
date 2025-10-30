@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Quests">
+        <node id="root">
+            <children>
+                <node id="Quest">
+                    <attribute id="CategoryID" type="FixedString" value="Start"/>
+                    <attribute id="ParentQuestID" type="FixedString" value=""/>
+                    <attribute id="QuestGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="QuestID" type="FixedString" value="PES_Q_START_GuideRefugees"/>
+                    <attribute id="QuestRewardTarget" type="uint8" value="2"/>
+                    <attribute id="QuestTitle" type="TranslatedString" handle="h36263ed6gc0bagef16gf1d6g7c62d59265d0" version="2"/>
+                    <attribute id="QuestVisiblity" type="bool" value="true"/>
+                    <attribute id="SortingPriority" type="int32" value="100"/>
+                    <children>
+                        <node id="QuestStep">
+                            <attribute id="Achievement" type="FixedString" value="You talked to refugees. "/>
+                            <attribute id="Description" type="TranslatedString" handle="hbc61c939gc2f9g650bgbdeegf58b993750ba" version="4"/>
+                            <attribute id="DevComment" type="FixedString" value=""/>
+                            <attribute id="DialogFlagGUID" type="guid" value="317a3b85-7f2b-4412-ba32-0155e3da318b"/>
+                            <attribute id="ExperienceReward" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="ID" type="FixedString" value="START"/>
+                            <attribute id="LevelOverride" type="int32" value="0"/>
+                            <attribute id="Objective" type="FixedString" value="START_OBJECTIVE"/>
+                            <attribute id="QuestRewardCount" type="int32" value="0"/>
+                            <attribute id="QuestRewardLevel" type="int32" value="0"/>
+                            <attribute id="QuestStepGuid" type="guid" value="f37afefc-e252-417b-a091-122e860245a9"/>
+                            <attribute id="QuestTitleOverride" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                            <attribute id="ReputationGain" type="int32" value="0"/>
+                            <attribute id="RewardAdditionalGold " type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerLevelName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalOwnerName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalTreasureTable" type="FixedString" value=""/>
+                            <attribute id="StatTriggerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="UnlockDisable" type="int32" value="1"/>
+                        </node>
+                        <node id="QuestStep">
+                            <attribute id="Achievement" type="FixedString" value=""/>
+                            <attribute id="Description" type="TranslatedString" handle="hc1189ed4g68f7gd5bbg0aebgad89e4dd8c5b" version="2"/>
+                            <attribute id="DevComment" type="FixedString" value=""/>
+                            <attribute id="DialogFlagGUID" type="guid" value="8bf2d588-0498-43b7-82ac-9d8af0c2db92"/>
+                            <attribute id="ExperienceReward" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="ID" type="FixedString" value="ACCEPTED"/>
+                            <attribute id="LevelOverride" type="int32" value="0"/>
+                            <attribute id="Objective" type="FixedString" value="GUIDE_OBJECTIVE"/>
+                            <attribute id="QuestRewardCount" type="int32" value="0"/>
+                            <attribute id="QuestRewardLevel" type="int32" value="0"/>
+                            <attribute id="QuestStepGuid" type="guid" value="f703bbf5-1362-4dd9-96f5-bddba1fbe3af"/>
+                            <attribute id="QuestTitleOverride" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                            <attribute id="ReputationGain" type="int32" value="0"/>
+                            <attribute id="RewardAdditionalGold " type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerLevelName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalOwnerName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalTreasureTable" type="FixedString" value=""/>
+                            <attribute id="StatTriggerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="UnlockDisable" type="int32" value="0"/>
+                        </node>
+                        <node id="QuestStep">
+                            <attribute id="Achievement" type="FixedString" value=""/>
+                            <attribute id="Description" type="TranslatedString" handle="hab964e37gc6bag08d3gc4b1g9bb55a2b65dd" version="2"/>
+                            <attribute id="DevComment" type="FixedString" value=""/>
+                            <attribute id="DialogFlagGUID" type="guid" value="8fd0ba46-830c-4ad3-aeeb-2fbc8a951d99"/>
+                            <attribute id="ExperienceReward" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="ID" type="FixedString" value="SUCCESS"/>
+                            <attribute id="LevelOverride" type="int32" value="0"/>
+                            <attribute id="Objective" type="FixedString" value="COMPLETED_OBJECTIVE"/>
+                            <attribute id="QuestRewardCount" type="int32" value="0"/>
+                            <attribute id="QuestRewardLevel" type="int32" value="0"/>
+                            <attribute id="QuestStepGuid" type="guid" value="4bb4e81d-a773-465f-9c09-5d1be007129d"/>
+                            <attribute id="QuestTitleOverride" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                            <attribute id="ReputationGain" type="int32" value="0"/>
+                            <attribute id="RewardAdditionalGold " type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerLevelName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalOwnerName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalTreasureTable" type="FixedString" value=""/>
+                            <attribute id="StatTriggerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="UnlockDisable" type="int32" value="2"/>
+                        </node>
+                        <node id="QuestStep">
+                            <attribute id="Achievement" type="FixedString" value=""/>
+                            <attribute id="Description" type="TranslatedString" handle="h2cba2f7dg56bdg2d3dgb04bgf57be8cd3c6e" version="2"/>
+                            <attribute id="DevComment" type="FixedString" value=""/>
+                            <attribute id="DialogFlagGUID" type="guid" value="eb68c2a8-1ce3-4bd5-9c4f-3b0f89113c60"/>
+                            <attribute id="ExperienceReward" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="ID" type="FixedString" value="PARTIAL_SUCCESS"/>
+                            <attribute id="LevelOverride" type="int32" value="0"/>
+                            <attribute id="Objective" type="FixedString" value="COMPLETED_OBJECTIVE"/>
+                            <attribute id="QuestRewardCount" type="int32" value="0"/>
+                            <attribute id="QuestRewardLevel" type="int32" value="0"/>
+                            <attribute id="QuestStepGuid" type="guid" value="bfaafa60-8e02-494c-884e-dc6317079d40"/>
+                            <attribute id="QuestTitleOverride" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                            <attribute id="ReputationGain" type="int32" value="0"/>
+                            <attribute id="RewardAdditionalGold " type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerLevelName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalOwnerName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalTreasureTable" type="FixedString" value=""/>
+                            <attribute id="StatTriggerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="UnlockDisable" type="int32" value="2"/>
+                        </node>
+                        <node id="QuestStep">
+                            <attribute id="Achievement" type="FixedString" value=""/>
+                            <attribute id="Description" type="TranslatedString" handle="h7abf6784g8ce8g09d0g527fg084e8c87b759" version="2"/>
+                            <attribute id="DevComment" type="FixedString" value=""/>
+                            <attribute id="DialogFlagGUID" type="guid" value="c0b19cf9-e21c-4a1f-b5f4-4351156d2b0d"/>
+                            <attribute id="ExperienceReward" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="ID" type="FixedString" value="REJEJCTED"/>
+                            <attribute id="LevelOverride" type="int32" value="0"/>
+                            <attribute id="Objective" type="FixedString" value="COMPLETED_OBJECTIVE"/>
+                            <attribute id="QuestRewardCount" type="int32" value="0"/>
+                            <attribute id="QuestRewardLevel" type="int32" value="0"/>
+                            <attribute id="QuestStepGuid" type="guid" value="cb1ef839-cae7-45d7-9c14-f9fab037f364"/>
+                            <attribute id="QuestTitleOverride" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                            <attribute id="ReputationGain" type="int32" value="0"/>
+                            <attribute id="RewardAdditionalGold " type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="RewardAdditionalOwnerLevelName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalOwnerName" type="LSString" value=""/>
+                            <attribute id="RewardAdditionalTreasureTable" type="FixedString" value=""/>
+                            <attribute id="StatTriggerGUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                            <attribute id="UnlockDisable" type="int32" value="2"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

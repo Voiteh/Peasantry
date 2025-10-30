@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Objectives">
+        <node id="root">
+            <children>
+                <node id="Objective">
+                    <attribute id="Description" type="TranslatedString" handle="h9ffa2466g0770g349fg7392g3bc7b42e57b9" version="2"/>
+                    <attribute id="ObjectiveID" type="FixedString" value="START_OBJECTIVE"/>
+                    <attribute id="Priority" type="int32" value="100"/>
+                    <attribute id="QuestID" type="FixedString" value="PES_Q_START_GuideRefugees"/>
+                    <attribute id="QuestObjectiveGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                </node>
+                <node id="Objective">
+                    <attribute id="Description" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                    <attribute id="ObjectiveID" type="FixedString" value="GUIDE_OBJECTIVE"/>
+                    <attribute id="Priority" type="int32" value="110"/>
+                    <attribute id="QuestID" type="FixedString" value="PES_Q_START_GuideRefugees"/>
+                    <attribute id="QuestObjectiveGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                </node>
+                <node id="Objective">
+                    <attribute id="Description" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0"/>
+                    <attribute id="ObjectiveID" type="FixedString" value="COMPLETED_OBJECTIVE"/>
+                    <attribute id="Priority" type="int32" value="1000"/>
+                    <attribute id="QuestID" type="FixedString" value="PES_Q_START_GuideRefugees"/>
+                    <attribute id="QuestObjectiveGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
